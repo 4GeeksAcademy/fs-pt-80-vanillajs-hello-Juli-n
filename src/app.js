@@ -7,7 +7,6 @@ import "./assets/img/4geeks.ico";
 
 const excuse = document.querySelector("#excuse");
 
-inner;
 window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
@@ -28,4 +27,7 @@ window.onload = function() {
   console.log(
     `${getValue(arr)} ${getValue(arra)} ${getValue(arrb)} ${getValue(arrc)}`
   );
+  excuse.innerHTML = `${getValue(arr)} ${getValue(arra)} ${getValue(
+    arrb
+  )} ${getValue(arrc)}`;
 };
